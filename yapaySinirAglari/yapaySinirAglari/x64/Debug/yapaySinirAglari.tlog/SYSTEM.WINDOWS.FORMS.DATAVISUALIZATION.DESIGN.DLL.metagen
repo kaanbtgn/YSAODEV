@@ -1,0 +1,291 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly System.Windows.Forms.DataVisualization.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Drawing.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Class FXAssembly: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    System.String Version = 4.0.0.0 : Assembly, Static, Literal, HasDefault
+Class ThisAssembly: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    System.String Title = System.Windows.Forms.DataVisualization.Design.dll : Assembly, Static, Literal, HasDefault
+    System.String Description = System.Windows.Forms.DataVisualization.Design.dll : Assembly, Static, Literal, HasDefault
+    System.String DefaultAlias = System.Windows.Forms.DataVisualization.Design.dll : Assembly, Static, Literal, HasDefault
+    System.String Copyright = © Microsoft Corporation.  All rights reserved. : Assembly, Static, Literal, HasDefault
+    System.String Version = 4.0.0.0 : Assembly, Static, Literal, HasDefault
+    System.String InformationalVersion = 4.7.3062.0 : Assembly, Static, Literal, HasDefault
+    System.String DailyBuildNumberStr = 30319 : Assembly, Static, Literal, HasDefault
+    System.String BuildRevisionStr = 0 : Assembly, Static, Literal, HasDefault
+    Int32 DailyBuildNumber = 30319 : Assembly, Static, Literal, HasDefault
+Class AssemblyRef: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    System.String EcmaPublicKey = b77a5c561934e089 : Assembly, Static, Literal, HasDefault
+    System.String EcmaPublicKeyToken = b77a5c561934e089 : Assembly, Static, Literal, HasDefault
+    System.String EcmaPublicKeyFull = 00000000000000000400000000000000 : Assembly, Static, Literal, HasDefault
+    System.String SilverlightPublicKey = 31bf3856ad364e35 : Assembly, Static, Literal, HasDefault
+    System.String SilverlightPublicKeyToken = 31bf3856ad364e35 : Assembly, Static, Literal, HasDefault
+    System.String SilverlightPublicKeyFull = 0024000004800000940000000602000000240000525341310004000001000100B5FC90E7027F67871E773A8FDE8938C81DD402BA65B9201D60593E96C492651E889CC13F1415EBB53FAC1131AE0BD333C5EE6021672D9718EA31A8AEBD0DA0072F25D87DBA6FC90FFD598ED4DA35E44C398C454307E8E33B8426143DAEC9F596836F97C8F74750E5975C64E2189F45DEF46B2A2B1247ADC3652BF5C308055DA9 : Assembly, Static, Literal, HasDefault
+    System.String SilverlightPlatformPublicKey = 7cec85d7bea7798e : Assembly, Static, Literal, HasDefault
+    System.String SilverlightPlatformPublicKeyToken = 7cec85d7bea7798e : Assembly, Static, Literal, HasDefault
+    System.String SilverlightPlatformPublicKeyFull = 00240000048000009400000006020000002400005253413100040000010001008D56C76F9E8649383049F383C44BE0EC204181822A6C31CF5EB7EF486944D032188EA1D3920763712CCB12D75FB77E9811149E6148E5D32FBAAB37611C1878DDC19E20EF135D0CB2CFF2BFEC3D115810C3D9069638FE4BE215DBF795861920E5AB6F7DB2E2CEEF136AC23D5DD2BF031700AEC232F6C6B1C785B4305C123B37AB : Assembly, Static, Literal, HasDefault
+    System.String PlatformPublicKey = b77a5c561934e089 : Assembly, Static, Literal, HasDefault
+    System.String PlatformPublicKeyToken = b77a5c561934e089 : Assembly, Static, Literal, HasDefault
+    System.String PlatformPublicKeyFull = 00000000000000000400000000000000 : Assembly, Static, Literal, HasDefault
+    System.String Mscorlib = mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 : Assembly, Static, Literal, HasDefault
+    System.String SystemData = System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 : Assembly, Static, Literal, HasDefault
+    System.String SystemDataOracleClient = System.Data.OracleClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 : Assembly, Static, Literal, HasDefault
+    System.String System = System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 : Assembly, Static, Literal, HasDefault
+    System.String SystemCore = System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 : Assembly, Static, Literal, HasDefault
+    System.String SystemNumerics = System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 : Assembly, Static, Literal, HasDefault
+    System.String SystemRuntimeRemoting = System.Runtime.Remoting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 : Assembly, Static, Literal, HasDefault
+    System.String SystemThreadingTasksDataflow = System.Threading.Tasks.Dataflow, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 : Assembly, Static, Literal, HasDefault
+    System.String SystemWindowsForms = System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 : Assembly, Static, Literal, HasDefault
+    System.String SystemXml = System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 : Assembly, Static, Literal, HasDefault
+    System.String MicrosoftPublicKey = b03f5f7f11d50a3a : Assembly, Static, Literal, HasDefault
+    System.String MicrosoftPublicKeyToken = b03f5f7f11d50a3a : Assembly, Static, Literal, HasDefault
+    System.String MicrosoftPublicKeyFull = 002400000480000094000000060200000024000052534131000400000100010007D1FA57C4AED9F0A32E84AA0FAEFD0DE9E8FD6AEC8F87FB03766C834C99921EB23BE79AD9D5DCC1DD9AD236132102900B723CF980957FC4E177108FC607774F29E8320E92EA05ECE4E821C0A5EFE8F1645C4C0C93C1AB99285D622CAA652C1DFAD63D745D6F2DE5F17E5EAF0FC4963D261C8A12436518206DC093344D5AD293 : Assembly, Static, Literal, HasDefault
+    System.String SharedLibPublicKey = 31bf3856ad364e35 : Assembly, Static, Literal, HasDefault
+    System.String SharedLibPublicKeyToken = 31bf3856ad364e35 : Assembly, Static, Literal, HasDefault
+    System.String SharedLibPublicKeyFull = 0024000004800000940000000602000000240000525341310004000001000100B5FC90E7027F67871E773A8FDE8938C81DD402BA65B9201D60593E96C492651E889CC13F1415EBB53FAC1131AE0BD333C5EE6021672D9718EA31A8AEBD0DA0072F25D87DBA6FC90FFD598ED4DA35E44C398C454307E8E33B8426143DAEC9F596836F97C8F74750E5975C64E2189F45DEF46B2A2B1247ADC3652BF5C308055DA9 : Assembly, Static, Literal, HasDefault
+    System.String SystemComponentModelDataAnnotations = System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 : Assembly, Static, Literal, HasDefault
+    System.String SystemConfiguration = System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a : Assembly, Static, Literal, HasDefault
+    System.String SystemConfigurationInstall = System.Configuration.Install, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a : Assembly, Static, Literal, HasDefault
+    System.String SystemDeployment = System.Deployment, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a : Assembly, Static, Literal, HasDefault
+    System.String SystemDesign = System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a : Assembly, Static, Literal, HasDefault
+    System.String SystemDirectoryServices = System.DirectoryServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a : Assembly, Static, Literal, HasDefault
+    System.String SystemDrawingDesign = System.Drawing.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a : Assembly, Static, Literal, HasDefault
+    System.String SystemDrawing = System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a : Assembly, Static, Literal, HasDefault
+    System.String SystemEnterpriseServices = System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a : Assembly, Static, Literal, HasDefault
+    System.String SystemManagement = System.Management, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a : Assembly, Static, Literal, HasDefault
+    System.String SystemMessaging = System.Messaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a : Assembly, Static, Literal, HasDefault
+    System.String SystemNetHttp = System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a : Assembly, Static, Literal, HasDefault
+    System.String SystemNetHttpWebRequest = System.Net.Http.WebRequest, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a : Assembly, Static, Literal, HasDefault
+    System.String SystemRuntimeSerializationFormattersSoap = System.Runtime.Serialization.Formatters.Soap, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a : Assembly, Static, Literal, HasDefault
+    System.String SystemRuntimeWindowsRuntime = System.Runtime.WindowsRuntime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 : Assembly, Static, Literal, HasDefault
+    System.String SystemRuntimeWindowsRuntimeUIXaml = System.Runtime.WindowsRuntimeUIXaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 : Assembly, Static, Literal, HasDefault
+    System.String SystemSecurity = System.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a : Assembly, Static, Literal, HasDefault
+    System.String SystemServiceModelWeb = System.ServiceModel.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 : Assembly, Static, Literal, HasDefault
+    System.String SystemServiceProcess = System.ServiceProcess, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a : Assembly, Static, Literal, HasDefault
+    System.String SystemWeb = System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a : Assembly, Static, Literal, HasDefault
+    System.String SystemWebAbstractions = System.Web.Abstractions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 : Assembly, Static, Literal, HasDefault
+    System.String SystemWebDynamicData = System.Web.DynamicData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 : Assembly, Static, Literal, HasDefault
+    System.String SystemWebDynamicDataDesign = System.Web.DynamicData.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 : Assembly, Static, Literal, HasDefault
+    System.String SystemWebEntityDesign = System.Web.Entity.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 : Assembly, Static, Literal, HasDefault
+    System.String SystemWebExtensions = System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 : Assembly, Static, Literal, HasDefault
+    System.String SystemWebExtensionsDesign = System.Web.Extensions.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 : Assembly, Static, Literal, HasDefault
+    System.String SystemWebMobile = System.Web.Mobile, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a : Assembly, Static, Literal, HasDefault
+    System.String SystemWebRegularExpressions = System.Web.RegularExpressions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a : Assembly, Static, Literal, HasDefault
+    System.String SystemWebRouting = System.Web.Routing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 : Assembly, Static, Literal, HasDefault
+    System.String SystemWebServices = System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a : Assembly, Static, Literal, HasDefault
+    System.String WindowsBase = WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 : Assembly, Static, Literal, HasDefault
+    System.String MicrosoftVisualStudio = Microsoft.VisualStudio, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a : Assembly, Static, Literal, HasDefault
+    System.String MicrosoftVisualStudioWindowsForms = Microsoft.VisualStudio.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a : Assembly, Static, Literal, HasDefault
+    System.String VJSharpCodeProvider = VJSharpCodeProvider, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a : Assembly, Static, Literal, HasDefault
+    System.String ASPBrowserCapsPublicKey = b7bd7678b977bd8f : Assembly, Static, Literal, HasDefault
+    System.String ASPBrowserCapsFactory = ASP.BrowserCapsFactory, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b7bd7678b977bd8f : Assembly, Static, Literal, HasDefault
+    System.String MicrosoftVSDesigner = Microsoft.VSDesigner, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a : Assembly, Static, Literal, HasDefault
+    System.String MicrosoftVisualStudioWeb = Microsoft.VisualStudio.Web, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a : Assembly, Static, Literal, HasDefault
+    System.String MicrosoftWebDesign = Microsoft.Web.Design.Client, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a : Assembly, Static, Literal, HasDefault
+    System.String MicrosoftVSDesignerMobile = Microsoft.VSDesigner.Mobile, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a : Assembly, Static, Literal, HasDefault
+    System.String MicrosoftJScript = Microsoft.JScript, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a : Assembly, Static, Literal, HasDefault
+Class System.Windows.Forms.Design.DataVisualization.Charting.AnnotationCollectionEditor: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Windows.Forms.Design.DataVisualization.Charting.ChartCollectionEditor
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class System.Windows.Forms.Design.DataVisualization.Charting.AnchorPointUITypeEditor: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Drawing.Design.UITypeEditor
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    EditValue(ITypeDescriptorContext, IServiceProvider, Object): PrivateScope, Public, Virtual, HideBySig
+    GetEditStyle(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+Class System.Windows.Forms.Design.DataVisualization.Charting.AnchorPointNameTreeView: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Windows.Forms.TreeView
+    Void .ctor(System.Windows.Forms.Design.IWindowsFormsEditorService, System.Windows.Forms.DataVisualization.Charting.Annotation, System.Windows.Forms.DataVisualization.Charting.DataPoint): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetNewValue(): PrivateScope, Public, HideBySig
+Class System.Windows.Forms.Design.DataVisualization.Charting.AnnotationAxisUITypeEditor: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Drawing.Design.UITypeEditor
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    EditValue(ITypeDescriptorContext, IServiceProvider, Object): PrivateScope, Public, Virtual, HideBySig
+    GetEditStyle(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+Class System.Windows.Forms.Design.DataVisualization.Charting.AnnotationAxisNameTreeView: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Windows.Forms.TreeView
+    Void .ctor(System.Windows.Forms.Design.IWindowsFormsEditorService, System.Windows.Forms.DataVisualization.Charting.Annotation, System.Windows.Forms.DataVisualization.Charting.Axis, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetNewValue(): PrivateScope, Public, HideBySig
+Class System.Windows.Forms.Design.DataVisualization.Charting.AreaCollectionEditor: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Windows.Forms.Design.DataVisualization.Charting.ChartCollectionEditor
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class System.Windows.Forms.Design.DataVisualization.Charting.DesignerMessageBoxDialog: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Windows.Forms.DataVisualization.Charting.IDesignerMessageBoxDialog
+  Methods:
+    GetMessageBoxOptions(): PrivateScope, Assembly, Static, HideBySig
+Class System.Windows.Forms.Design.DataVisualization.Charting.AxesArrayEditor: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.ComponentModel.Design.ArrayEditor
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class System.Windows.Forms.Design.DataVisualization.Charting.DataPointCustomPropertiesConverter: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.ComponentModel.TypeConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetPropertiesSupported(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+    GetProperties(ITypeDescriptorContext, Object, Attribute[]): PrivateScope, Public, Virtual, HideBySig
+    ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type): PrivateScope, Public, Virtual, HideBySig
+Class System.Windows.Forms.Design.DataVisualization.Charting.DataPointConverter: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Windows.Forms.Design.DataVisualization.Charting.DataPointCustomPropertiesConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    CanConvertTo(ITypeDescriptorContext, Type): PrivateScope, Public, Virtual, HideBySig
+    ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type): PrivateScope, Public, Virtual, HideBySig
+Class System.Windows.Forms.Design.DataVisualization.Charting.ColorPaletteEditor: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Drawing.Design.UITypeEditor
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetPaintValueSupported(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+    PaintValue(PaintValueEventArgs): PrivateScope, Public, Virtual, HideBySig
+Class System.Windows.Forms.Design.DataVisualization.Charting.ChartColorEditor: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Drawing.Design.ColorEditor
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class System.Windows.Forms.Design.DataVisualization.Charting.SeriesDataSourceMemberValueAxisUITypeEditor: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Drawing.Design.UITypeEditor
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetDropDownControl(Chart, ITypeDescriptorContext, Object, Boolean): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride
+    EditValue(ITypeDescriptorContext, IServiceProvider, Object): PrivateScope, Public, Virtual, HideBySig
+    GetEditStyle(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+Class System.Windows.Forms.Design.DataVisualization.Charting.SeriesDataSourceMemberYCheckedListBox: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Windows.Forms.CheckedListBox
+    Void .ctor(System.Windows.Forms.DataVisualization.Charting.Chart, System.Object, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetMemberNames(): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride
+    GetNewValue(): PrivateScope, Public, HideBySig
+Class System.Windows.Forms.Design.DataVisualization.Charting.ChartTypeEditor: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Drawing.Design.UITypeEditor
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetPaintValueSupported(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+    PaintValue(PaintValueEventArgs): PrivateScope, Public, Virtual, HideBySig
+Class System.Windows.Forms.Design.DataVisualization.Charting.DataPointCollectionEditor: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Windows.Forms.Design.DataVisualization.Charting.ChartCollectionEditor
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    EditValue(ITypeDescriptorContext, IServiceProvider, Object): PrivateScope, Public, Virtual, HideBySig
+Class System.Windows.Forms.Design.DataVisualization.Charting.ChartCollectionEditor: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.ComponentModel.Design.CollectionEditor
+    Void .ctor(System.Type): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    EditValue(ITypeDescriptorContext, IServiceProvider, Object): PrivateScope, Public, Virtual, HideBySig
+    GetChartReference(Object): PrivateScope, Public, Static, HideBySig
+Class System.Windows.Forms.Design.DataVisualization.Charting.SeriesCollectionEditor: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Windows.Forms.Design.DataVisualization.Charting.ChartCollectionEditor
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    CreateNewSeries(Chart, String): PrivateScope, Assembly, Static, HideBySig
+Class System.Windows.Forms.Design.DataVisualization.Charting.FlagsEnumUITypeEditor: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Drawing.Design.UITypeEditor
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    EditValue(ITypeDescriptorContext, IServiceProvider, Object): PrivateScope, Public, Virtual, HideBySig
+    GetEditStyle(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+Class System.Windows.Forms.Design.DataVisualization.Charting.FlagsEnumCheckedListBox: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Windows.Forms.CheckedListBox
+    Void .ctor(System.Object, System.Type): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetNewValue(): PrivateScope, Public, HideBySig
+Class System.Windows.Forms.Design.DataVisualization.Charting.GradientEditor: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Drawing.Design.UITypeEditor
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    GetPaintValueSupported(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+    PaintValue(PaintValueEventArgs): PrivateScope, Public, Virtual, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Windows.Forms.Design.DataVisualization.Charting.HatchStyleEditor: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Drawing.Design.UITypeEditor
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    GetPaintValueSupported(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+    PaintValue(PaintValueEventArgs): PrivateScope, Public, Virtual, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Windows.Forms.Design.DataVisualization.Charting.ImageValueEditor: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Windows.Forms.Design.FileNameEditor
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetPaintValueSupported(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+    PaintValue(PaintValueEventArgs): PrivateScope, Public, Virtual, HideBySig
+Class System.Windows.Forms.Design.DataVisualization.Charting.KeywordEditor: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Collections.ArrayList, System.String, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String Keyword : Assembly
+Class System.Windows.Forms.Design.DataVisualization.Charting.KeywordsStringEditorForm: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String, System.String, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String ResultString : Public
+    System.Collections.ArrayList applicableKeywords : Assembly
+    System.Windows.Forms.DataVisualization.Charting.Utilities.KeywordsRegistry KeywordsRegistry : Assembly
+Class System.Windows.Forms.Design.DataVisualization.Charting.KeywordsStringEditor: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Drawing.Design.UITypeEditor
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    EditValue(ITypeDescriptorContext, IServiceProvider, Object): PrivateScope, Public, Virtual, HideBySig
+    GetEditStyle(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+Class System.Windows.Forms.Design.DataVisualization.Charting.LegendItemCollectionEditor: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Windows.Forms.Design.DataVisualization.Charting.ChartCollectionEditor
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    EditValue(ITypeDescriptorContext, IServiceProvider, Object): PrivateScope, Public, Virtual, HideBySig
+Class System.Windows.Forms.Design.DataVisualization.Charting.LegendCollectionEditor: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Windows.Forms.Design.DataVisualization.Charting.ChartCollectionEditor
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class System.Windows.Forms.Design.DataVisualization.Charting.LegendCellColumnCollectionEditor: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Windows.Forms.Design.DataVisualization.Charting.ChartCollectionEditor
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class System.Windows.Forms.Design.DataVisualization.Charting.LegendCellCollectionEditor: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Windows.Forms.Design.DataVisualization.Charting.ChartCollectionEditor
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class System.Windows.Forms.Design.DataVisualization.Charting.MarkerStyleEditor: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Drawing.Design.UITypeEditor
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    GetPaintValueSupported(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+    PaintValue(PaintValueEventArgs): PrivateScope, Public, Virtual, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Windows.Forms.Design.DataVisualization.Charting.ChartWinDesigner: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Windows.Forms.Design.ControlDesigner
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Design.DataVisualization.Charting.ChartWinDesigner controlDesigner : Assembly, Static
+  Methods:
+    Initialize(IComponent): PrivateScope, Public, Virtual, HideBySig
+    InitializeNewComponent(IDictionary): PrivateScope, Public, Virtual, HideBySig
+    OnDataSourceChanged(Chart): PrivateScope, Assembly, Static, HideBySig
+    GetControlDataSource(): PrivateScope, Public, HideBySig
+    GetControlDataSource(Chart): PrivateScope, Assembly, HideBySig
+Class System.Windows.Forms.Design.DataVisualization.Charting.ChartWinDesignerSerializer: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.ComponentModel.Design.Serialization.CodeDomSerializer
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Serialize(IDesignerSerializationManager, Object): PrivateScope, Public, Virtual, HideBySig
+    Deserialize(IDesignerSerializationManager, Object): PrivateScope, Public, Virtual, HideBySig

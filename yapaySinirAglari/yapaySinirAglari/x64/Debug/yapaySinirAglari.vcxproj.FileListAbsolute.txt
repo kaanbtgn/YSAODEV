@@ -1,0 +1,6 @@
+C:\Users\kaanb\Desktop\ysa\yapaySinirAglari\yapaySinirAglari\x64\Debug\yapaySinirAglari.vcxproj.AssemblyReference.cache
+C:\Users\kaanb\Desktop\ysa\yapaySinirAglari\yapaySinirAglari\x64\Debug\yapaySinirAglari.Form1.resources
+C:\Users\kaanb\Desktop\ysa\yapaySinirAglari\yapaySinirAglari\x64\Debug\yapaySinirAglari.vcxproj.GenerateResource.cache
+C:\Users\kaanb\Desktop\ysaodev\ysaodevalintisi-main\yapaySinirAglari\yapaySinirAglari\x64\Debug\yapaySinirAglari.vcxproj.AssemblyReference.cache
+C:\Users\kaanb\Desktop\ysaodev\ysaodevalintisi-main\yapaySinirAglari\yapaySinirAglari\x64\Debug\yapaySinirAglari.Form1.resources
+C:\Users\kaanb\Desktop\ysaodev\ysaodevalintisi-main\yapaySinirAglari\yapaySinirAglari\x64\Debug\yapaySinirAglari.vcxproj.GenerateResource.cache

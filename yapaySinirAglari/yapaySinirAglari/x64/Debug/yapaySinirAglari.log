@@ -1,0 +1,10 @@
+﻿  CppCLRWinformsProjekt.cpp
+C:\Users\kaanb\Desktop\ysaodev\ysaodevalintisi-main\yapaySinirAglari\Form1.h(757,13): error C2065: 'textBox1': bildirimi yapılmamış tanımlayıcı
+  ('/CppCLRWinformsProjekt.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\kaanb\Desktop\ysaodev\ysaodevalintisi-main\yapaySinirAglari\Form1.h(806,21): error C2065: 'textBox1': bildirimi yapılmamış tanımlayıcı
+  ('/CppCLRWinformsProjekt.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\kaanb\Desktop\ysaodev\ysaodevalintisi-main\yapaySinirAglari\Form1.h(807,17): error C2065: 'textBox1': bildirimi yapılmamış tanımlayıcı
+  ('/CppCLRWinformsProjekt.cpp' kaynak dosyası derleniyor)
+  
