@@ -99,8 +99,8 @@ namespace CppCLRWinformsProjekt {
             p = nullptr;
 
             // Hide perceptron-related buttons initially
-            this->buttonRandomize->Visible = false;
-            this->buttonInitial->Visible = false;
+            this->buttonRandomize->Visible = true;
+            this->buttonInitial->Visible = true;
         }
 
     protected:
@@ -141,7 +141,7 @@ namespace CppCLRWinformsProjekt {
         int* GLOBAL_NEURON_COUNT = nullptr;
 
     private: System::ComponentModel::Container^ components;
-    private: System::Windows::Forms::TextBox^ textBox1;
+
 
     private: System::Windows::Forms::MenuStrip^ menuStrip1;
     private: System::Windows::Forms::OpenFileDialog^ openFileDialog1;
@@ -209,10 +209,6 @@ namespace CppCLRWinformsProjekt {
                this->TrainTypeBox = (gcnew System::Windows::Forms::ComboBox());
                this->buttonRandomize = (gcnew System::Windows::Forms::Button());
                this->buttonInitial = (gcnew System::Windows::Forms::Button());
-
-               // textBox1 initialization
-               this->textBox1 = (gcnew System::Windows::Forms::TextBox());
-
                (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
                this->groupBox1->SuspendLayout();
                this->groupBox2->SuspendLayout();
@@ -231,14 +227,6 @@ namespace CppCLRWinformsProjekt {
                this->pictureBox1->TabStop = false;
                this->pictureBox1->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &Form1::pictureBox1_Paint);
                this->pictureBox1->MouseClick += gcnew System::Windows::Forms::MouseEventHandler(this, &Form1::pictureBox1_MouseClick);
-
-               // textBox1
-               this->textBox1->Location = System::Drawing::Point(1020, 30);
-               this->textBox1->Name = L"textBox1";
-               this->textBox1->Size = System::Drawing::Size(200, 20);
-               this->textBox1->TabIndex = 7;
-               this->textBox1->Text = "";
-
                // 
                // groupBox1
                // 
@@ -438,7 +426,7 @@ namespace CppCLRWinformsProjekt {
                this->groupBox3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Bold));
                this->groupBox3->Location = System::Drawing::Point(1020, 354);
                this->groupBox3->Name = L"groupBox3";
-               this->groupBox3->Size = System::Drawing::Size(294, 102);
+               this->groupBox3->Size = System::Drawing::Size(295, 113);
                this->groupBox3->TabIndex = 7;
                this->groupBox3->TabStop = false;
                this->groupBox3->Text = L"Train";
@@ -508,7 +496,6 @@ namespace CppCLRWinformsProjekt {
                this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
                this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
                this->ClientSize = System::Drawing::Size(1600, 900);
-               this->Controls->Add(this->textBox1);
                this->Controls->Add(this->groupBox3);
                this->Controls->Add(this->chart1);
                this->Controls->Add(this->label3);
@@ -767,8 +754,6 @@ namespace CppCLRWinformsProjekt {
         file.open(c[0]);
         if (file.is_open()) {
             file >> Dim >> w_ >> h >> num;
-            // textBox1 can be used now
-            textBox1->Text += "Dimension: " + Convert::ToString(Dim) + " w: " + Convert::ToString(w_) +
                 " h:" + Convert::ToString(h) + " numClass: " + Convert::ToString(num) + "\r\n";
             int inputDim = Dim;
             numClass = num;
@@ -815,10 +800,6 @@ namespace CppCLRWinformsProjekt {
                 int drawX = static_cast<int>(Samples[i * inputDim] + w_);
                 int drawY = static_cast<int>(h - Samples[i * inputDim + 1]);
                 draw_sample(drawX, drawY, static_cast<int>(targets[i]));
-
-                for (int j = 0; j < inputDim; j++)
-                    textBox1->Text += Convert::ToString(Samples[i * inputDim + j]) + " ";
-                textBox1->Text += Convert::ToString(targets[i]) + "\r\n";
             }
 
             label3->Text = "Samples Count: " + System::Convert::ToString(numSample);
